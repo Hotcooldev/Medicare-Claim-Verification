@@ -4,6 +4,7 @@ import "./IERC20.sol";
 import "./SafeMath.sol";
 import "./Organizations.sol";
 
+
 /**
  * @title Standard ERC20 token
  *

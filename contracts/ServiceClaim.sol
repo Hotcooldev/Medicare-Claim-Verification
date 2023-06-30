@@ -36,6 +36,8 @@ contract ServiceClaim {
         timeProvided = _timeProvided;
     }
 
+
+
     // ------------------------------ Functionality of the Network --------------------------- //
 
     function file(uint256 _amount, uint256 _timeFiled) public returns(uint256) {

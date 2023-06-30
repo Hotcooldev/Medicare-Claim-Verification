@@ -11,6 +11,7 @@ var transporter = nodemailer.createTransport({
     }
 });
 
+
 module.export = function router() {
     notificationsRouter.route('/patientCellCreated').post((req, res) => {
         let patientname = req.body.patientname;

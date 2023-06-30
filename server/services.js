@@ -28,6 +28,7 @@ init = async () => {
     }
 }
 
+
 module.exports = function router() {
     servicesRouter.route('/provideService').post((req, res) => {
         init().then(function (arr) {

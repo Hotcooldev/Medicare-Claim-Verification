@@ -30,6 +30,7 @@ contract Organizations {
         address addr, string patientname, string providername, string claimname, bytes32 id,
         bytes32 provider, bytes32 patient, uint256 amount, bool confirmed, uint256 timeProvided, uint256 timeFiled, uint256 timeVerified);
 
+
     event idList(bytes32[] ids);
     event serviceList(address[] services);
     event SCName(string name);

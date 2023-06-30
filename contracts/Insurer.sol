@@ -32,6 +32,7 @@ contract Insurer {
 
     event Claims(address[] addrList);
 
+
     struct SC {
         address insAddr;
         address provAddr;

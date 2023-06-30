@@ -19,3 +19,4 @@ module.exports = function(deployer) {
   //return deployer.deploy(Provider, "UCSD Medical", web3.utils.sha3(web3.utils.fromAscii("UCSD Medical")));
   //deployer.deploy(ServiceClaim);
 };
+

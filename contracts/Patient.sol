@@ -36,6 +36,7 @@ contract Patient {
     // pass insurer address into constructor params 
 
 
+
     function removeUnverified(uint index) public {
         if (index >= unverifiedClaims.length) return;
 
